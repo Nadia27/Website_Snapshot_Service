@@ -1,0 +1,22 @@
+{
+  "name": "KayneTwitterArchive",
+  "version": "0.0.0",
+  "description": "Takes snapshots of Kayne's Twitter and stores into https://web.archive.org",
+  "author": "nadia <abby.nadia76@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "request": "^2.85.0"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "nadia/KayneTwitterArchive",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    },
+    "source": "@JanethL/DailySnapShot/0.0.0"
+  }
+}
